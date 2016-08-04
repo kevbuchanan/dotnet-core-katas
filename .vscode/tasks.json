@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "${workspaceRoot}/Katas/project.json"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "test",
+            "args": ["Katas.Test"],
+            "isBuildCommand": true,
+            "showOutput": "always"
+        }
+    ]
+}
