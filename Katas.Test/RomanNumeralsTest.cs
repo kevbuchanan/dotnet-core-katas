@@ -10,6 +10,10 @@ public class RomanNumeralsTest {
     [InlineData(9, "IX")]
     [InlineData(19, "XIX")]
     [InlineData(27, "XXVII")]
+    [InlineData(49, "XLIX")]
+    [InlineData(57, "LVII")]
+    [InlineData(99, "XCIX")]
+    [InlineData(201, "CCI")]
     public void RomanTest(int input, string expected) {
         _subject = new RomanNumerals();
 
