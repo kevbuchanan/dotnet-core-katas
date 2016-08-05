@@ -16,6 +16,11 @@
             "args": ["Katas.Test"],
             "isBuildCommand": true,
             "showOutput": "always"
+        },
+        {
+            "taskName": "run",
+            "args": ["-p", "Katas.Console"],
+            "showOutput": "always"
         }
     ]
 }
